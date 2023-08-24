@@ -1,0 +1,108 @@
+.header {
+    background-image:url('../../images/png/header-bg.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150rem;
+    height: 90rem;
+}
+.header_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5.7rem;
+}
+.header_logo_text {
+    display: flex;
+    align-items: center;
+    gap: 6.9rem;
+}
+.sitenav_link {
+    display: flex;
+    gap: 4rem;
+}
+
+
+.heder_nummber {
+    color: $wihite_color;
+    transition: 0.3s;
+    padding: 1rem 1.5rem;
+    border: 0;
+}
+.sitenav_link{
+    display: flex;
+    gap: 42px;
+}
+
+
+
+
+li {
+    margin-bottom: 10px;
+}
+
+.sitenav_text {
+    display: inline-block;
+    color: $wihite_color;
+    text-decoration: none;
+    font-family: $body-ff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+
+}
+
+.sitenav_text::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: $wihite_color;
+    transition:.3s;
+}
+
+.sitenav_text:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
+
+.heder_nummber:hover{
+    background-color: $black_color;
+    border: solid 1px;
+    padding: 1rem 1.5rem;
+    border-color: $black_color;
+    color: red;
+}
+
+
+.header_main {
+  margin-top: 21.6rem;
+}
+.header_main_text {
+font-family: $body-ff;
+font-size: 2rem;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0.1em;
+text-align: left;
+color: $wihite_color;
+text-transform: uppercase;
+margin-bottom: .6rem;
+}
+._header_main_title {
+font-family: $body-ff;
+font-weight: 400;
+color: $wihite_color;
+width: 51.1rem;
+margin-top: 1rem;
+font-size: 5rem;
+margin-bottom: 1.9rem;
+}
+
+.header_main{
+    margin-top: 21.6rem;
+    margin-bottom: 32.2rem;
+}

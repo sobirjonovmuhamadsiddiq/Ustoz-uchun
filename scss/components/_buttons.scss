@@ -1,0 +1,20 @@
+.heder_btn{
+    padding: 1.8rem 2.3rem;
+    color: $wihite_color;
+    font-family: $body-ff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    border: solid 1px;
+    transition: 0.6s;
+    margin-top: 1.9rem;
+    transition: 0.3s;
+}
+
+.heder_btn:hover{
+    background-color: $black_color;
+    border: 0;
+    color: red;
+}
